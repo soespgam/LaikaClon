@@ -1,0 +1,33 @@
+<ion-row  class="slidInf">
+  <ion-col size="1" class="icono" (click)="slide.slidePrev()">
+    <ion-icon name="chevron-back-circle-outline"></ion-icon>
+  </ion-col>
+ 
+  <ion-col size="10">
+    <ion-slides #slide>
+      <ion-slide>
+          <img src="https://laikapp.s3.amazonaws.com/dev_images_categories/1592410196_SALVAJE_FOOD_SAS__1226X1028.PNG">
+      </ion-slide>
+
+      <ion-slide>
+          <img src="https://laikapp.s3.amazonaws.com/dev_images_categories/AGILITY_GOLD_CIRCULO_OK2.png">
+      </ion-slide>
+
+      <ion-slide>
+        <img src="https://s3.us-east-1.amazonaws.com/laikapp/images_categories/PELUDITOS_BARF_logo2.png">
+      </ion-slide>
+
+      <ion-slide>
+        <img src="https://laikapp.s3.amazonaws.com/dev_images_categories/hills_circulo4.png">
+      </ion-slide>
+      
+      <ion-slide>
+        <img src="https://s3.us-east-1.amazonaws.com/laikapp/images_categories/total_max_circulo2.png">     
+      </ion-slide>
+    </ion-slides>
+  </ion-col>
+  
+  <ion-col size="1" class="icono" (click)="slide.slideNext()">
+    <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+  </ion-col>
+</ion-row>
